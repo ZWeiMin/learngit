@@ -1,7 +1,8 @@
 Git is a version control System
-Git is a free software
+Git is a free software distribute under the GPL
 修改
 Git 命令：
-git add file
-git commit -m comment
-git status
+git add file 添加文件
+git diff 文件比较
+git commit -m comment 文件提交
+git status 文件状态
