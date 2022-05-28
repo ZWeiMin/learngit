@@ -11,3 +11,9 @@ git reset --head 版本的id 回到对应的版本
 git reflog 记录每次的命令
 第一次修改
 git checkout -- file 撤销操作
+git remote add origin git@github.com:ZWeiMin/learngit.git 关联远程库
+把本地库推送道远程公共库GitHub
+git put origin master 本地提交
+git remote -v 查看远程库信息
+git remote rm origin 删除远程库，非物理删除
+git push -u origin master第一次推送master分支的所有内容
